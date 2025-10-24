@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Sandwiches-Carrodilla-tienda/static/css/main.05eaad09.css",
+    "main.js": "/Sandwiches-Carrodilla-tienda/static/js/main.30746ad9.js",
+    "static/media/flotacamionetas.png": "/Sandwiches-Carrodilla-tienda/static/media/flotacamionetas.1537c7b16310c408296b.png",
+    "static/media/carrodillavect.png": "/Sandwiches-Carrodilla-tienda/static/media/carrodillavect.ef2c02591b19b1f5dce2.png",
+    "static/media/sandwichhero.jpg": "/Sandwiches-Carrodilla-tienda/static/media/sandwichhero.ee665af9ffaa4d88614e.jpg",
+    "static/media/sandwichsalameyqueso.jpeg": "/Sandwiches-Carrodilla-tienda/static/media/sandwichsalameyqueso.6ff568335c15fa97216f.jpeg",
+    "static/media/ensaladadefrutas.jpeg": "/Sandwiches-Carrodilla-tienda/static/media/ensaladadefrutas.03cd97b333d5cfbb6f87.jpeg",
+    "static/media/migacrudoyqueso.jpeg": "/Sandwiches-Carrodilla-tienda/static/media/migacrudoyqueso.702ba6e245ce4558d98e.jpeg",
+    "static/media/flan.jpeg": "/Sandwiches-Carrodilla-tienda/static/media/flan.7a74eb9d320beffc71e7.jpeg",
+    "static/media/migajamonyqueso.jpeg": "/Sandwiches-Carrodilla-tienda/static/media/migajamonyqueso.7a6a825be578f4081622.jpeg",
+    "static/media/migasalameyqueso.jpeg": "/Sandwiches-Carrodilla-tienda/static/media/migasalameyqueso.02c6d58ed7c61881be14.jpeg",
+    "index.html": "/Sandwiches-Carrodilla-tienda/index.html",
+    "main.05eaad09.css.map": "/Sandwiches-Carrodilla-tienda/static/css/main.05eaad09.css.map",
+    "main.30746ad9.js.map": "/Sandwiches-Carrodilla-tienda/static/js/main.30746ad9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05eaad09.css",
+    "static/js/main.30746ad9.js"
+  ]
+}
