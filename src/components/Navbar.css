@@ -1,0 +1,68 @@
+/* === NAVBAR === */
+
+.navbar {
+  background-color: white;
+  color: #4a2c00;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 5px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* === LOGO === */
+.logo {
+  width: 250px;     
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+/* === LISTA DE ENLACES === */
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+/* === ENLACES === */
+.navbar ul li a {
+  text-decoration: none;
+  color: #4a2c00;
+  font-weight: 800;
+  font-size: larger;
+  transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+  color: #c23b22;
+}
+
+section {
+  scroll-margin-top: 100px;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Logo arriba, links abajo */
+    align-items: flex-start;
+    padding: 15px 20px;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color: #f3e0c0;
+    width: 200px;
+    padding: 15px;
+    display: none; /* luego puedes controlar esto con JS si haces menú hamburguesa */
+  }
+}

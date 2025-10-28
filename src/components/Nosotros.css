@@ -1,0 +1,59 @@
+/*NOSOTROS*/
+.nosotros {
+  background-color: #fff8ec;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.nosotros h2 {
+  color: #c23b22;
+  margin-bottom: 20px;
+}
+
+.nosotros p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+
+.nosotros-container {
+  display: flex !important;
+  flex-direction: row !important ;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff7eb;
+  padding: 50px 80px;
+  gap: 40px;
+}
+
+/* El texto ocupa la mitad izquierda */
+.nosotros-texto {
+  flex: 1;
+}
+
+/* La imagen ocupa la mitad derecha */
+.nosotros-imagen {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.nosotros-imagen img {
+  width: 90%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 📱 En pantallas pequeñas se apila */
+@media (max-width: 768px) {
+  .nosotros-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nosotros-imagen {
+    margin-top: 20px;
+  }
+}

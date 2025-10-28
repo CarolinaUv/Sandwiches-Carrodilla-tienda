@@ -1,0 +1,91 @@
+[
+  {
+    "id": 1,
+    "nombre": "Sándwich de miga - Jamón y Queso",
+    "descripcion": "Dos unidades de sándwiches triples en pan de miga con jamón cocido, queso y mayonesa.",
+    "peso": "378 gr.",
+    "precio": 3700,
+    "imagen": "migajamonyqueso.jpeg"
+  },{
+    "id": 2,
+    "nombre": "Mini sándwich de miga - Jamón y Queso ",
+    "descripcion": "Tres unidades de sándwiches triples en pan de miga con jamón cocido, queso y mayonesa.",
+    "peso":"378 gr.",
+    "precio": 3200,
+    "imagen": "minitriplemiga.png"
+  },{
+    "id": 3,
+    "nombre": "Sandwich de miga - Salame y Queso",
+    "descripcion": "Dos unidades de sándwiches triples en pan de miga con salame, queso y mayonesa.",
+    "precio": 3700,
+    "imagen": "migasalameyqueso.jpeg"
+  },{
+    "id": 4,
+    "nombre": "Sandwich de miga - Jamón crudo y Queso",
+    "descripcion": "Dos unidades de sándwiches triples en pan de miga con jamón crudo, queso y mayonesa.",
+    "precio": 0,
+    "imagen": "migacrudoyqueso.jpeg"
+  },{
+    "id": 5,
+    "nombre": "Sandwich Primavera",
+    "descripcion": "Dos unidades de sándwiches triples en pan de miga con jamón cocido, queso, huevo, tomate, lechuga y mayonesa.",
+    "precio": 3200,
+    "imagen": "sandwichprimavera.png"
+  },{
+    "id": 5,
+    "nombre": "Sandwich Jamón y Queso Salvado",
+    "descripcion": "Dos unidades de sándwiches triples en pan de miga de salvado con jamón cocido, queso y mayonesa.",
+    "precio": 3200,
+    "peso":"378 gr.",
+    "imagen": "triplemigasalvado.png"
+  },{
+    "id": 6,
+    "nombre": "Pebete en pan de Viena",
+    "descripcion": "Pan de Viena con sésamo, salame/jamón cocido, queso y mayonesa.",
+    "precio": 3200,
+    "imagen": "sandwichsalameyqueso.jpeg"
+  },{
+    "id": 7,
+    "nombre": "Sándwich tipo campo",
+    "descripcion": "Sándwich en pan casero con jamón crudo, queso y mayonesa.",
+    "precio": 3200,
+    "imagen": "sandwichtipocampo.png"
+  },
+  {
+    "id": 8,
+    "nombre": "Sandwich de Milanesa en pan árabe",
+    "descripcion": "Pan árabe con milanesa de carne/pollo, jamón cocido, queso, tomate, lechuga y mayonesa.",
+    "precio": 6500,
+    "imagen": "sandwichmilanesapanarabe.jpeg"
+  },{
+    "id": 9,
+    "nombre": "Lomo en pan árabe",
+    "descripcion": "Pan árabe con carne vacuna, jamón cocido, queso, tomate, lechuga, huevo y mayonesa.",
+    "precio": 0,
+    "imagen": "lomopanarabe.jpeg"
+  },{
+    "id": 10,
+    "nombre": "Hamburguesa",
+    "descripcion": "Pan de Viena con sésamo, hamburguesa casera cocida, jamón cocido, queso, tomate, lechuga y mayonesa.",
+    "precio": 6500,
+    "imagen": "hamburguesa1.jpeg"
+  },{
+    "id": 11,
+    "nombre": "Flan vainilla con Dulce de Leche",
+    "descripcion": "Flan casero de vainilla con dulce de leche y caramelo",
+    "precio": 3300,
+    "imagen": "flan.jpeg"
+  },{
+    "id": 12,
+    "nombre": "Ensalada de frutas",
+    "descripcion": "Jugo multifruta con manzana, naranja, ananá, pera, durazno, frutilla y/o uva y kiwi.",
+    "precio": 3300,
+    "imagen": "ensaladadefrutas.jpeg"
+  },{
+    "id": 13,
+    "nombre": "Postre Chocotorta",
+    "descripcion": "Galleta de chocolate húmeda molida, crema de leche y dulce de leche.",
+    "precio": 3300,
+    "imagen": "postre.jpeg"
+  }
+]
