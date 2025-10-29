@@ -1,22 +1,30 @@
 {
   "files": {
-    "main.css": "/Sandwiches-Carrodilla-tienda/static/css/main.05eaad09.css",
-    "main.js": "/Sandwiches-Carrodilla-tienda/static/js/main.30746ad9.js",
-    "static/media/flotacamionetas.png": "/Sandwiches-Carrodilla-tienda/static/media/flotacamionetas.1537c7b16310c408296b.png",
+    "main.css": "/Sandwiches-Carrodilla-tienda/static/css/main.e0f7c877.css",
+    "main.js": "/Sandwiches-Carrodilla-tienda/static/js/main.cb77cdb4.js",
+    "static/media/hero.jpg": "/Sandwiches-Carrodilla-tienda/static/media/hero.fd3d165b15285d2da2c1.jpg",
+    "static/media/minitriplemiga.png": "/Sandwiches-Carrodilla-tienda/static/media/minitriplemiga.bbbf40a9d224fb1fe6f7.png",
+    "static/media/sandwichtipocampo.png": "/Sandwiches-Carrodilla-tienda/static/media/sandwichtipocampo.58c05e013331154f7d4b.png",
+    "static/media/sandwichprimavera.png": "/Sandwiches-Carrodilla-tienda/static/media/sandwichprimavera.4e927c453d00327f3fd5.png",
+    "static/media/triplemigasalvado.png": "/Sandwiches-Carrodilla-tienda/static/media/triplemigasalvado.e5b266bdbc6a65caa9f4.png",
     "static/media/carrodillavect.png": "/Sandwiches-Carrodilla-tienda/static/media/carrodillavect.ef2c02591b19b1f5dce2.png",
-    "static/media/sandwichhero.jpg": "/Sandwiches-Carrodilla-tienda/static/media/sandwichhero.ee665af9ffaa4d88614e.jpg",
     "static/media/sandwichsalameyqueso.jpeg": "/Sandwiches-Carrodilla-tienda/static/media/sandwichsalameyqueso.6ff568335c15fa97216f.jpeg",
+    "static/media/lomopanarabe.jpeg": "/Sandwiches-Carrodilla-tienda/static/media/lomopanarabe.6c8283036ea36d2ef422.jpeg",
+    "static/media/sandwichmilanesapanarabe.jpeg": "/Sandwiches-Carrodilla-tienda/static/media/sandwichmilanesapanarabe.62a56c18faa34f69a166.jpeg",
     "static/media/ensaladadefrutas.jpeg": "/Sandwiches-Carrodilla-tienda/static/media/ensaladadefrutas.03cd97b333d5cfbb6f87.jpeg",
     "static/media/migacrudoyqueso.jpeg": "/Sandwiches-Carrodilla-tienda/static/media/migacrudoyqueso.702ba6e245ce4558d98e.jpeg",
     "static/media/flan.jpeg": "/Sandwiches-Carrodilla-tienda/static/media/flan.7a74eb9d320beffc71e7.jpeg",
     "static/media/migajamonyqueso.jpeg": "/Sandwiches-Carrodilla-tienda/static/media/migajamonyqueso.7a6a825be578f4081622.jpeg",
+    "static/media/hamburguesa1.jpeg": "/Sandwiches-Carrodilla-tienda/static/media/hamburguesa1.25550370f1b372dc798d.jpeg",
+    "static/media/postre.jpeg": "/Sandwiches-Carrodilla-tienda/static/media/postre.be06861fbbb6af9754ee.jpeg",
+    "static/media/flotacamioneta.jpg": "/Sandwiches-Carrodilla-tienda/static/media/flotacamioneta.61f6ff24c56a2c86831e.jpg",
     "static/media/migasalameyqueso.jpeg": "/Sandwiches-Carrodilla-tienda/static/media/migasalameyqueso.02c6d58ed7c61881be14.jpeg",
     "index.html": "/Sandwiches-Carrodilla-tienda/index.html",
-    "main.05eaad09.css.map": "/Sandwiches-Carrodilla-tienda/static/css/main.05eaad09.css.map",
-    "main.30746ad9.js.map": "/Sandwiches-Carrodilla-tienda/static/js/main.30746ad9.js.map"
+    "main.e0f7c877.css.map": "/Sandwiches-Carrodilla-tienda/static/css/main.e0f7c877.css.map",
+    "main.cb77cdb4.js.map": "/Sandwiches-Carrodilla-tienda/static/js/main.cb77cdb4.js.map"
   },
   "entrypoints": [
-    "static/css/main.05eaad09.css",
-    "static/js/main.30746ad9.js"
+    "static/css/main.e0f7c877.css",
+    "static/js/main.cb77cdb4.js"
   ]
 }
