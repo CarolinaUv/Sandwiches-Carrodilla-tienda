@@ -1,5 +1,6 @@
 // src/App.js
 import React from "react";
+import "./uploadProducts";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
