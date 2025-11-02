@@ -1,9 +1,8 @@
-// src/firebaseConfig.js
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCc_49XPdFbtJJTyjSZjlABtuSPhuE1rp8",
+  apiKey: "AIzaSyCc_49XPdFDtJJTyjSZjABtuSPhuE1rp8",
   authDomain: "sandwiches-carrodilla.firebaseapp.com",
   projectId: "sandwiches-carrodilla",
   storageBucket: "sandwiches-carrodilla.firebasestorage.app",
@@ -12,8 +11,8 @@ const firebaseConfig = {
   measurementId: "G-5E4D6287M5"
 };
 
-// Inicializa Firebase
+// Inicializar Firebase
 const app = initializeApp(firebaseConfig);
 
-// Exporta Firestore
+// Exportar Firestore
 export const db = getFirestore(app);

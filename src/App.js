@@ -1,6 +1,4 @@
-// src/App.js
-import React from "react";
-import "./uploadProducts";
+import { useEffect } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -10,6 +8,7 @@ import Contacto from "./components/Contacto";
 import Footer from "./components/Footer";
 import { CartProvider } from "./context/CartContext";
 import Cart from "./components/Cart";
+import { getFirestore, getDoc, doc } from "firebase/firestore";
 
 function App() {
   return (
