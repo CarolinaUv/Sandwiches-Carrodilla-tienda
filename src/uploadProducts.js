@@ -1,11 +1,9 @@
 import { collection, addDoc } from "firebase/firestore";
-import { db } from "./firebase"; // ✅ nuevo import correcto
+import { db } from "./firebase"; 
 
-
-// Ejemplo para subir un producto:
 export async function uploadProduct(producto) {
   try {
-    const productosRef = collection(db, "productos"); // ✅ pasamos db como primer parámetro
+    const productosRef = collection(db, "productos"); 
     await addDoc(productosRef, producto);
     console.log("Producto agregado:", producto.nombre);
   } catch (error) {

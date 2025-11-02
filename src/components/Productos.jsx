@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { collection, getDocs } from "firebase/firestore";
-import { db } from "../firebaseConfig"; // o "../index" si ahí exportás db
+import { db } from "../firebaseConfig"; 
 import ProductoCard from "./ProductoCard";
 import "./Productos.css";
 

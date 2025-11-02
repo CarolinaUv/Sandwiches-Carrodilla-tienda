@@ -6,20 +6,20 @@ export default function Contacto() {
   const form = useRef();
 
   const sendEmail = (e) => {
-    e.preventDefault(); // evita recargar la página al enviar
+    e.preventDefault(); 
 
     emailjs
       .sendForm(
-        "TU_SERVICE_ID",   // reemplazá con tu Service ID de EmailJS
-        "TU_TEMPLATE_ID",  // reemplazá con tu Template ID de EmailJS
+        "TU_SERVICE_ID",   
+        "TU_TEMPLATE_ID",  
         form.current,
-        "TU_PUBLIC_KEY"    // reemplazá con tu Public Key de EmailJS
+        "TU_PUBLIC_KEY"    
       )
       .then(
         (result) => {
           console.log(result.text);
           alert("Mensaje enviado con éxito ✅");
-          form.current.reset(); // limpia el formulario
+          form.current.reset(); 
         },
         (error) => {
           console.log(error.text);

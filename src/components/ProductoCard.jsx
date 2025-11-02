@@ -14,7 +14,7 @@ import flan from '../assets/img/flan.jpeg';
 import ensaladadefrutas from '../assets/img/ensaladadefrutas.jpeg';
 import postre from '../assets/img/postre.jpeg';
 import './ProductoCard.css';
-import { useCart } from '../context/CartContext'; // 👈 importa el contexto
+import { useCart } from '../context/CartContext'; 
 
 const imageMap = {
   'migajamonyqueso.jpeg': migajamonyqueso,
@@ -34,11 +34,11 @@ const imageMap = {
 };
 
 function ProductoCard({ producto }) {
-  const { addItem } = useCart(); // 👈 accede a la función addItem
+  const { addItem } = useCart(); 
 
   const handleAddToCart = () => {
     const productData = {
-      id: producto.id, // asegúrate de que el JSON tenga un id único
+      id: producto.id, 
       name: producto.nombre,
       price: producto.precio,
       image: imageMap[producto.imagen],
