@@ -39,19 +39,19 @@ function ProductoCard({ producto }) {
   const handleAddToCart = () => {
     const productData = {
       id: producto.id, 
-      name: producto.nombre,
-      price: producto.precio,
-      image: imageMap[producto.imagen],
+      name: producto.NOMBRE,
+      price: producto.PRECIO,
+      image: producto.IMAGEN,
     };
     addItem(productData, 1);
   };
 
   return (
     <div className="producto-card">
-      <img src={imageMap[producto.imagen]} alt={producto.nombre} />
-      <h3>{producto.nombre}</h3>
-      <p>{producto.descripcion}</p>
-      <span>${producto.precio}</span>
+      <img src={producto.IMAGEN} alt={producto.NOMBRE} />
+      <h3>{producto.NOMBRE}</h3>
+      <p>{producto.DESCRIPCIÓN}</p>
+      <span>${producto.PRECIO}</span>
       <button
         className="btn-agregar"
         onClick={handleAddToCart}

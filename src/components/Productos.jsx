@@ -7,10 +7,10 @@ import "./Productos.css";
 export default function Productos() {
   const [productos, setProductos] = useState([]);
 
-  useEffect(() => {
-    const obtenerProductos = async () => {
-      try {
-        const productosRef = collection(db, "productos");
+ useEffect(() => {
+   const obtenerProductos = async () => {
+     try {
+       const productosRef = collection(db, "PRODUCTOS");
         const snapshot = await getDocs(productosRef);
         const lista = snapshot.docs.map((doc) => ({
           id: doc.id,

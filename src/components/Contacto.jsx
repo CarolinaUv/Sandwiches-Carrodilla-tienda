@@ -1,42 +1,101 @@
-import React, { useRef } from "react";
-import emailjs from "emailjs-com";
-import "./Contacto.css";
+import React, { useState, useEffect } from "react";
+import { onAuthStateChanged } from "firebase/auth";
+import { auth } from "../firebaseConfig";
 
 export default function Contacto() {
-  const form = useRef();
+  const [user, setUser] = useState(null);
+  const [nombre, setNombre] = useState("");
+  const [email, setEmail] = useState("");
+  const [mensaje, setMensaje] = useState("");
+  const [enviado, setEnviado] = useState(false);
 
-  const sendEmail = (e) => {
-    e.preventDefault(); 
+  useEffect(() => {
+    const unsub = onAuthStateChanged(auth, (usuarioActual) => {
+      setUser(usuarioActual);
+      if (usuarioActual) {
+        setEmail(usuarioActual.email);
+      }
+    });
+    return () => unsub();
+  }, []);
 
-    emailjs
-      .sendForm(
-        "TU_SERVICE_ID",   
-        "TU_TEMPLATE_ID",  
-        form.current,
-        "TU_PUBLIC_KEY"    
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          alert("Mensaje enviado con éxito ✅");
-          form.current.reset(); 
-        },
-        (error) => {
-          console.log(error.text);
-          alert("Error al enviar el mensaje ❌");
-        }
-      );
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    console.log({
+      nombre,
+      email,
+      mensaje,
+      user: user ? user.email : "anónimo",
+    });
+
+    setEnviado(true);
+    setNombre("");
+    if (!user) setEmail(""); 
+    setMensaje("");
   };
 
   return (
-    <section id="contacto" className="contacto">
-      <h2>Contacto</h2>
-      <form ref={form} onSubmit={sendEmail}>
-        <input type="text" name="name" placeholder="Nombre" required />
-        <input type="email" name="email" placeholder="Correo electrónico" required />
-        <textarea name="message" placeholder="Mensaje" required></textarea>
-        <button type="submit">Enviar</button>
-      </form>
+    <section id="contacto" className="contacto" style={{ textAlign: "center", padding: "40px 20px", backgroundColor: "#fff8ec" }}>
+      <h2 style={{ color: "#c23b22", marginBottom: "20px" }}>Contacto</h2>
+
+      {enviado ? (
+        <p style={{ color: "green", fontWeight: "bold" }}>
+          ¡Gracias por tu mensaje! Te responderemos pronto.
+        </p>
+      ) : (
+        <form onSubmit={handleSubmit} style={{ maxWidth: "500px", margin: "0 auto" }}>
+          <input
+            type="text"
+            placeholder="Nombre"
+            value={nombre}
+            onChange={(e) => setNombre(e.target.value)}
+            required
+            style={{ display: "block", width: "100%", marginBottom: "15px", padding: "10px" }}
+          />
+
+          {}
+          {!user && (
+            <input
+              type="email"
+              placeholder="Correo electrónico"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+              style={{ display: "block", width: "100%", marginBottom: "15px", padding: "10px" }}
+            />
+          )}
+
+          <textarea
+            placeholder="Escribí tu mensaje"
+            value={mensaje}
+            onChange={(e) => setMensaje(e.target.value)}
+            required
+            style={{ display: "block", width: "100%", marginBottom: "15px", padding: "10px", height: "120px" }}
+          ></textarea>
+
+          <button
+            type="submit"
+            style={{
+              backgroundColor: "#c23b22",
+              color: "white",
+              border: "none",
+              padding: "10px 20px",
+              borderRadius: "8px",
+              cursor: "pointer",
+            }}
+          >
+            Enviar
+          </button>
+        </form>
+      )}
+
+      {user && (
+        <p style={{ marginTop: "15px", color: "#555" }}>
+          Estás enviando como: <strong>{user.email}</strong>
+        </p>
+      )}
     </section>
   );
 }
+
