@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sandwiches-Carrodilla-tienda/static/css/main.16c1a2a6.css",
-    "main.js": "/Sandwiches-Carrodilla-tienda/static/js/main.1c4b4846.js",
+    "main.css": "/Sandwiches-Carrodilla-tienda/static/css/main.fb1164c4.css",
+    "main.js": "/Sandwiches-Carrodilla-tienda/static/js/main.f698d331.js",
     "static/media/hero.jpg": "/Sandwiches-Carrodilla-tienda/static/media/hero.fd3d165b15285d2da2c1.jpg",
     "static/media/minitriplemiga.png": "/Sandwiches-Carrodilla-tienda/static/media/minitriplemiga.bbbf40a9d224fb1fe6f7.png",
     "static/media/sandwichtipocampo.png": "/Sandwiches-Carrodilla-tienda/static/media/sandwichtipocampo.58c05e013331154f7d4b.png",
@@ -20,11 +20,11 @@
     "static/media/flotacamioneta.jpg": "/Sandwiches-Carrodilla-tienda/static/media/flotacamioneta.61f6ff24c56a2c86831e.jpg",
     "static/media/migasalameyqueso.jpeg": "/Sandwiches-Carrodilla-tienda/static/media/migasalameyqueso.02c6d58ed7c61881be14.jpeg",
     "index.html": "/Sandwiches-Carrodilla-tienda/index.html",
-    "main.16c1a2a6.css.map": "/Sandwiches-Carrodilla-tienda/static/css/main.16c1a2a6.css.map",
-    "main.1c4b4846.js.map": "/Sandwiches-Carrodilla-tienda/static/js/main.1c4b4846.js.map"
+    "main.fb1164c4.css.map": "/Sandwiches-Carrodilla-tienda/static/css/main.fb1164c4.css.map",
+    "main.f698d331.js.map": "/Sandwiches-Carrodilla-tienda/static/js/main.f698d331.js.map"
   },
   "entrypoints": [
-    "static/css/main.16c1a2a6.css",
-    "static/js/main.1c4b4846.js"
+    "static/css/main.fb1164c4.css",
+    "static/js/main.f698d331.js"
   ]
 }
